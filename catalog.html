@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="https://via.placeholder.com/150x100" alt="Логотип Седоны">
+      </a>
+      <ul>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта Штата</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Фильтр жилья</h1>
+      <form method="post" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура</legend>
+          <ul>
+            <li>
+              Бассейн <input type="checkbox" name="pool" checked>
+            </li>
+            <li>
+              <label> Парковка <input type="checkbox" name="parking">
+              </label>
+            </li>
+            <li>
+              <label>
+                Wi-Fi<input type="checkbox" name="wifi">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья</legend>
+          <ul>
+            <li>
+              <label>
+                Гостиница <input type="checkbox" name="hotel" checked>
+              </label>
+            </li>
+            <li>
+              <label>
+                Мотель <input type="checkbox" name="motel" checked>
+              </label>
+            </li>
+            <li>
+              <label>
+                Апартаменты <input type="checkbox" name="apartments" checked>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <h1>Стоимость в сутки</h1>
+        <p>От 0 до 3000</p>
+        <meter value="2500" max="3000">2500</meter><br>
+        <button type="submit">Показать</button>
+      </form>
+    </section>
+    <section>
+      <h2>Сортировка жилья </h2>
+      <p>Найдено: 3</p>Сортировка:
+      <ul>
+        <li><button type="button">По цене</button></li>
+        <li><button type="button">По типу</button></li>
+        <li><button type="button">По рейтингу</button></li>
+      </ul>
+    </section>
+    <section>
+      <ul>
+        <li>
+          <a href="catalog.html">
+            <h3>Amara resort&spa</h3>
+            <p> <img src="https://via.placeholder.com/135x90" alt="Amara resort hotel">
+            </p>
+          </a>
+          <p>Гостиница</p>
+          <p>От 4000 P.</p>
+          <button type="button">Подробнее</button>
+          <button type="button">Забронировать</button>
+          <p>Рейтинг:8,5</p>
+        </li>
+        <li>
+          <a href="catalog.html">
+            <h3>Desert quail inn</h3>
+            <p>
+              <img src="https://via.placeholder.com/135x90" alt="Desert Quail Inn">
+            </p>
+          </a>
+          <p>Гостиница</p>
+          <p>От 3000 Р.</p>
+          <button type="button">Подробнее</button>
+          <button type="button">Забронировать</button>
+          <p>Рейтинг:8,9</p>
+        </li>
+        <li>
+          <a href="catalog.html">
+            <h3>Villas at poco diablo</h3>
+            <p>
+              <img src="https://via.placeholder.com/135x90" alt="Villas at poco diablo">
+            </p>
+          </a>
+          <p>Апартаменты</p>
+          <p>От 2000 P.</p>
+          <button type="button">Подробнее</button>
+          <button type="button">Забронировать</button>
+          <p>Рейтинг:9,2</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>Как нас найти</h2>
+      <p>#visitsedona</p>
+      Телефон: <a href="tel:+78126660266">+7 812 666-02-66</a>
+    </section>
+    <section>
+      <h2>Наши контакты</h2>
+      <ul>
+        <li>
+          <a href="#">Твиттер</a>
+        </li>
+        <li>
+          <a href="#">Фэйсбук</a>
+        </li>
+        <li>
+          <a href="#">Ютуб</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Кем сайт разработан</h2>
+      <p>Website by
+        <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+      </p>
+    </section>
+  </footer>
+</body>
+
+</html>
