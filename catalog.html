@@ -29,15 +29,18 @@
           <legend>Инфраструктура</legend>
           <ul>
             <li>
-              Бассейн <input type="checkbox" name="pool" checked>
+              Бассейн
+              <input type="checkbox" name="pool" checked>
             </li>
             <li>
-              <label> Парковка <input type="checkbox" name="parking">
+              <label> Парковка
+                <input type="checkbox" name="parking">
               </label>
             </li>
             <li>
               <label>
-                Wi-Fi<input type="checkbox" name="wifi">
+                Wi-Fi
+                <input type="checkbox" name="wifi">
               </label>
             </li>
           </ul>
@@ -47,25 +50,39 @@
           <ul>
             <li>
               <label>
-                Гостиница <input type="checkbox" name="hotel" checked>
+                Гостиница
+                <input type="checkbox" name="hotel" checked>
               </label>
             </li>
             <li>
               <label>
-                Мотель <input type="checkbox" name="motel" checked>
+                Мотель
+                <input type="checkbox" name="motel" checked>
               </label>
             </li>
             <li>
               <label>
-                Апартаменты <input type="checkbox" name="apartments" checked>
+                Апартаменты
+                <input type="checkbox" name="apartments" checked>
               </label>
             </li>
           </ul>
         </fieldset>
-        <h1>Стоимость в сутки</h1>
-        <p>От 0 до 3000</p>
-        <meter value="2500" max="3000">2500</meter><br>
-        <button type="submit">Показать</button>
+        <div class="filter-range">
+          <div class="filter-range-title">Стоимость в сутки (р):</div>
+          <div class="price-controls">
+            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button type="submit">Показать</button>
+        </div>
       </form>
     </section>
     <section>
@@ -143,7 +160,7 @@
     <section>
       <h2>Кем сайт разработан</h2>
       <p>Website by
-        <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">HTML Academy</a>
       </p>
     </section>
   </footer>
