@@ -155,7 +155,9 @@ background-color: var(--basic-search-blue);
 
 .search-button:hover {
   background-color: var(--hover-blue);
+
 }
+
 .search.button:focus {
   background-color: var(--active-blue);
   color: var(--transparent-active-button);
