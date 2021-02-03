@@ -60,7 +60,7 @@
                 Гостиница
                 <input type="checkbox" name="hotel" checked>
               </label>
-            </li class="filter-item">
+            </li>
             <li class="filter-item">
               <label>
                 Мотель
@@ -92,9 +92,9 @@
         </div>
       </form>
     </section>
-    <section>
+    <section class="sorting-section">
       <h2>Сортировка жилья </h2>
-      <p>Найдено: 3</p>
+      <p class="sorting-title">Найдено: 3</p>
       <p class="sorting">Сортировка:</p>
       <ul>
         <li><button class="sorting price-sort" type="button">По цене</button></li>
@@ -103,15 +103,15 @@
       </ul>
     </section>
     <section class="hotels">
-      <ul>
+      <ul class="hotel-list">
         <li>
           <a href="#">
             <h3 class="hotel-name">Amara resort&spa</h3>
             <p> <img src="img/amara.jpg" width="135" height="90" alt="Amara resort hotel">
             </p>
           </a>
-          <p>Гостиница</p>
-          <p>От 4000 P.</p>
+          <p class="hotel-type">Гостиница</p>
+          <p class="hotel-price">От 4000 P.</p>
           <button class="button details-button" type="button">Подробнее</button>
           <button class="button reservation-button" type="button">Забронировать</button>
           <p class="hotel-rating">Рейтинг:8,5</p>
@@ -123,10 +123,10 @@
               <img src="img/quail-inn.jpg" width="139" height="90" alt="Desert Quail Inn">
             </p>
           </a>
-          <p>Гостиница</p>
-          <p>От 3000 Р.</p>
-          <button class="button details-button"  type="button">Подробнее</button>
-          <button class="button reservation-button"  type="button">Забронировать</button>
+          <p class="hotel-type">Мотель</p>
+          <p class="hotel-price">От 3000 Р.</p>
+          <button class="button details-button" type="button">Подробнее</button>
+          <button class="button reservation-button" type="button">Забронировать</button>
           <p class="hotel-rating">Рейтинг:8,9</p>
         </li>
         <li>
@@ -136,8 +136,8 @@
               <img src="img/villas.jpg" width="139" height="90" alt="Villas at poco diablo">
             </p>
           </a>
-          <p>Апартаменты</p>
-          <p>От 2000 P.</p>
+          <p class="hotel-type">Апартаменты</p>
+          <p class="hotel-price">От 2000 P.</p>
           <button class="button details-button" type="button">Подробнее</button>
           <button class="button reservation-button" type="button">Забронировать</button>
           <p class="hotel-rating">Рейтинг:9,2</p>
@@ -146,8 +146,8 @@
     </section>
   </main>
   <footer class="main-footer">
-      <img src="img/map.jpg" width="1199" height="594" alt="Карта гостиниц">
-      <section class="footer-contacts">
+    <img src="img/map.jpg" width="1199" height="594" alt="Карта гостиниц">
+    <section class="footer-contacts">
       <h2>Как нас найти</h2>
       <p>#visitsedona</p>
       Телефон: <a class="footer-phone" href="tel:+78126660266">+7 812 666-02-66</a>
