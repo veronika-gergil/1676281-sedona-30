@@ -177,17 +177,18 @@ img {
 
 /* Features */
 
-.features-list,
 .feature-container-list {
   list-style: none;
 }
 
+.blue,
 .feature-item {
 text-align: center;
 line-height: 21px;
 font-weight: 400;
 }
 
+.blue h3,
 .feature-item h3 {
   font-size: 21px;
   line-height: 21px;
@@ -463,7 +464,6 @@ grid-template-columns: 1fr 1fr 1fr;
   margin: 0;
   outline: 5px solid blue;
   outline-offset: -5px;
-  max-width: 251px;
 }
 
 .footer-tag {
@@ -493,7 +493,7 @@ grid-template-columns: 1fr 1fr 1fr;
   margin: 0;
   justify-self: end;
   outline: 5px solid blue;
-  outline-offset: -5px;
+  outline-offset: 5px;
 }
 
 .footer-social ul {

@@ -13,7 +13,7 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="page-body">
+<body class="page-body container">
 
   <header class="main-header">
     <nav class="main-navigation">
@@ -40,8 +40,6 @@
     <h2 class="features-block">Преимущества</h2>
     <section class="features">
       <div class="features-container">
-        <div class="features-list">
-          <div class="feature-item">
             <div class="blue">
               <h3>Настоящий городок</h3>
               <p>— №1 —</p>
@@ -52,8 +50,6 @@
                 <img src="img/building-image.jpg" height="256" width="800" alt="Open range pub">
               </figure>
             </div>
-          </div>
-        </div>
       </div>
       <div class="features-container-blocks">
         <ul class="feature-container-list">
@@ -72,7 +68,6 @@
         </ul>
       </div>
       <div class="features-container">
-        <div class="feature-item">
           <div class="feature-container-image">
             <figure class="bridge-photo">
               <img src="img/devil-bridge.jpg" width="800" height="256" alt="Мост дьявола">
@@ -83,7 +78,6 @@
             <p>— №2 —</p>
             <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
           </div>
-        </div>
       </div>
       <div class="features-container-blocks">
         <ul class="feature-container-list grey-section">
@@ -105,9 +99,41 @@
         </ul>
       </div>
     </section>
+    <div class="container">
+      <h2 class="hotel-search">Заинтересовались?</h2>
+      <p class="hotel-search-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
+        гостиниц в седоне</p>
+    </div>
+    <section class="modal modal-search">
+      <div class="modal-title-wrap">
+        <h3 class="modal-title">Поиск гостиницы в седоне</h3>
+      </div>
+      <form class="hotel-search-form" action="https://echo.htmlacademy.ru/" method="post">
+        <p class="hotel-search-item">
+          <label>
+            Дата заезда: <input type="date" name="date-of-arrival" value="2017-04-24">
+          </label>
+        </p>
+        <p class="hotel-search-item">
+          <label>
+            Дата выезда: <input type="date" name="date-of-departure" value="2017-07-04">
+          </label>
+        </p>
+        <p class="hotel-search-item">
+          <label>
+            Взрослые: <meter value="2" max="8">2</meter></label>
+          <label>
+            Дети: <meter value="0">0</meter>
+          </label>
+        </p>
+        <button class="button search-button" type="submit">Найти</button>
+      </form>
+    </section>
     <p> <img src="img/map.jpg" width="1199" height="594" alt="Карта гостиниц"> </p>
+
   </main>
-  <footer class=" main-footer container">
+  <footer class="main-footer">
+    <div class="footer-wrapper container">
     <section class="footer-contacts">
       <h2 class="footer-title-block">Как нас найти</h2>
       <p class="footer-tag">#visitsedona</p>
@@ -134,37 +160,8 @@
             width="115" height="41" alt="HTML logo"></a>
       </p>
     </section>
-  </footer>
-  <div class="container">
-    <h2 class="hotel-search">Заинтересовались?</h2>
-    <p class="hotel-search-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
-      гостиниц в седоне</p>
-  </div>
-  <section class="modal modal-search">
-    <div class="modal-title-wrap">
-      <h3 class="modal-title">Поиск гостиницы в седоне</h3>
     </div>
-    <form class="hotel-search-form" action="https://echo.htmlacademy.ru/" method="post">
-      <p class="hotel-search-item">
-        <label>
-          Дата заезда: <input type="date" name="date-of-arrival" value="2017-04-24">
-        </label>
-      </p>
-      <p class="hotel-search-item">
-        <label>
-          Дата выезда: <input type="date" name="date-of-departure" value="2017-07-04">
-        </label>
-      </p>
-      <p class="hotel-search-item">
-        <label>
-          Взрослые: <meter value="2" max="8">2</meter></label>
-        <label>
-          Дети: <meter value="0">0</meter>
-        </label>
-      </p>
-      <button class="button search-button" type="submit">Найти</button>
-    </form>
-  </section>
+  </footer>
 </body>
 
 </html>
