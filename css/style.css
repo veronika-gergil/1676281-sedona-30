@@ -119,45 +119,55 @@ outline-offset: -5px;
 
 .main-navigation {
   color: var(--basic-black);
-  display: grid;
-  grid-template-columns: repeat(6, auto);
+  display: flex;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  position: relative;
+  padding: 15px 72px 15px 72px;
 }
 
-.site-navigation {
-  list-style: none;
-}
 
 /* Logo */
 
-.main-navigation-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  /*width: 1200px;*/
-  margin: 0 auto;
-  padding: 15px 72px;
-
-}
 
 .main-header-logo {
-  outline: 5px solid blue;
-  outline-offset: -5px;
-  justify-self: center;
+  /* outline: 5px solid blue; */
+  /* outline-offset: -5px; */
   width: 138px;
   height: 70px;
+  position: absolute;
+  top: 0;
+  left: 531px;
 }
 
 /* User navigation*/
 
 .site-navigation {
-  outline: 5px solid green;
-  outline-offset: -5px;
+  /* outline: 5px solid green;
+  outline-offset: -5px; */
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
+}
+
+.site-navigation li {
+  margin-right: 134px;
+}
+
+.site-navigation li:nth-child(2) {
+  margin-right: 418px;
+}
+
+.site-navigation li:nth-child(3) {
+  margin-right: 147px;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
 }
 
 .site-navigation a{
@@ -1115,8 +1125,10 @@ width: 110px;
 }
 
 .main-footer .container{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-flex {
@@ -1149,7 +1161,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.footer
+
 .footer-phone {
   width: 251px;
   margin-bottom: 36px;
@@ -1173,7 +1185,7 @@ grid-template-columns: 1fr 1fr 1fr;
   font-weight: 400;
   min-width: 197px;
   margin-right: 138px;
-  justify-self: end;
+  justify-self: center;
   outline: 5px solid blue;
   outline-offset: 5px;
 }
@@ -1226,14 +1238,20 @@ grid-template-columns: 1fr 1fr 1fr;
 background-color: var(--basic-search-blue);
 }
 
-.social-button:hover {
+.social-button:hover, {
 background-color: var(--hover-blue);
+}
+
+.social-button:hover path {
+  fill:rgba(255, 255, 255, 0.3);
 }
 
 .social-button:active {
   background-color: var(--active-blue);
   color: rgba(var(--rgb-transparent-text),0.3);
 }
+
+
 
 .footer-copyright {
   color: inherit;
@@ -1262,4 +1280,20 @@ background-color: var(--hover-blue);
 .modal-title-wrap:focus {
   background-color: var(--active-brown);
   color: rgba(var(--rgb-transparent-text),0.3);
+}
+
+.logo {
+  background: url(../img/background-photo.jpg) no-repeat 0 0;
+  position: relative;
+}
+
+.welcome-svg {
+  text-align: center;
+  padding: 80px 0 80px 0;
+}
+
+.zigzag {
+  position: absolute;
+  bottom: 11px;
+  left: 0;
 }
