@@ -105,14 +105,14 @@ img {
 display: grid;
 grid-template-rows: auto auto 1fr;
 min-height: 100vh;
-outline: 5px solid red;
+/*outline: 5px solid red;
 outline-offset: -5px;
 }
 
 .main-header {
   background-color: var(--basic-white);
   outline: 5px solid red;
-  outline-offset: -5px;
+  outline-offset: -5px;*/
 }
 
 .main-navigation {
@@ -191,8 +191,8 @@ outline-offset: -5px;
 
 .sorting-section {
   display: flex;
-  outline: 5px solid red;
-  outline-offset: -5px;
+ /* outline: 5px solid red;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   align-items: center;
@@ -250,8 +250,8 @@ outline-offset: -5px;
 }
 
 .sedona-container-1 {
-  outline: 5px solid green;
-  outline-offset: -5px;
+  /*outline: 5px solid green;
+  outline-offset: -5px;*/
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -261,8 +261,8 @@ outline-offset: -5px;
 }
 
 .about-us {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+ /* outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-top: 43px;
   margin-bottom: 16px;
   box-sizing: border-box;
@@ -272,8 +272,8 @@ outline-offset: -5px;
 }
 
 .features-desc {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-bottom: 51px;
   box-sizing: border-box;
   width: 519px;
@@ -284,14 +284,14 @@ outline-offset: -5px;
 .features {
   width: 1200px;
   margin: 0 auto;
-  outline: 5px solid green;
-  outline-offset: -5px;
+  /*outline: 5px solid green;
+  outline-offset: -5px;*/
 }
 
 .features-container-1 {
   display: flex;
-  outline: 5px solid blue;
-  outline-offset: -5px;
+  /*outline: 5px solid blue;
+  outline-offset: -5px;*/
   padding: 0;
   margin: 0;
   height: 256px;
@@ -335,8 +335,8 @@ outline-offset: -5px;
 
 .features-container-2 {
   display: flex;
-  outline: 5px solid blue;
-  outline-offset: -5px;
+  /*outline: 5px solid blue;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   height: 256px;
@@ -373,8 +373,8 @@ outline-offset: -5px;
 }
 
 .feature-item {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
 }
 
 .item-housing {
@@ -548,8 +548,8 @@ outline: none;
 .more-block {
   display: flex;
   flex-direction: column;
-  outline: 5px solid red;
-  outline-offset: -5px;
+  /*outline: 5px solid red;
+  outline-offset: -5px;*/
   align-items: center;
   padding: 0;
   margin: 0;
@@ -557,8 +557,8 @@ outline: none;
 
 .hotel-search {
   width: 273px;
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-bottom: 4px;
   margin-right: 457px;
   margin-left: 446px;
@@ -567,8 +567,8 @@ outline: none;
 
 .hotel-search-description {
   width: 435px;
-  outline: 5px solid pink;
-  outline-offset: -5px;
+ /* outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-right: 382px;
   margin-left: 383px;
   padding-top: 37px;
@@ -662,8 +662,8 @@ outline: none;
 }
 
 .filter-container {
-outline: 5px solid green;
-outline-offset: -5px;
+/*outline: 5px solid green;
+outline-offset: -5px;*/
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 margin: 0;
@@ -953,8 +953,8 @@ line-height: 21px;
 .hotels-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  outline: 5px solid red;
-  outline-offset: -5px;
+  /*outline: 5px solid red;
+  outline-offset: -5px;*/
   padding: 0;
   margin: 0;
 }
@@ -962,8 +962,8 @@ line-height: 21px;
 .hotels-container-1 {
   display: flex;
   align-items: flex-start;
-  outline: 5px solid green;
-  outline-offset: -5px;
+  /*outline: 5px solid green;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -973,8 +973,8 @@ line-height: 21px;
 .hotels-container-2 {
   display: flex;
   align-items: flex-start;
-  outline: 5px solid green;
-  outline-offset: -5px;
+ /* outline: 5px solid green;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   width: 1200px;
@@ -983,16 +983,16 @@ line-height: 21px;
 .hotels-container-3 {
   display: flex;
   align-items: flex-start;
-  outline: 5px solid green;
-  outline-offset: -5px;
+  /*outline: 5px solid green;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   width: 1200px;
 }
 
 .image-amara {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-left: 73px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1001,8 +1001,8 @@ line-height: 21px;
 }
 
 .text-amara {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+ /* outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin: 0;
   padding: 0;
   margin-top: 24px;
@@ -1028,8 +1028,8 @@ line-height: 21px;
 }
 
 .rating-amara {
- outline: 5px solid pink;
- outline-offset: -5px;
+/* outline: 5px solid pink;
+ outline-offset: -5px;*/
  margin-right: 72px;
  margin-top: 30px;
  margin-bottom: 33px;
@@ -1037,8 +1037,8 @@ line-height: 21px;
 }
 
 .image-quail {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-left: 73px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1060,16 +1060,16 @@ line-height: 21px;
 }
 
 .text-quail {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-top: 24px;
   margin-bottom: 30px;
   margin-right: auto;
 }
 
 .rating-quail {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+ /* outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-top: 28px;
   margin-bottom: 30px;
   margin-right: 72px;
@@ -1089,8 +1089,8 @@ line-height: 21px;
 }
 
 .image-diablo {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+  /*outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-left: 73px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1098,8 +1098,8 @@ line-height: 21px;
 }
 
 .text-diablo {
-  outline: 5px solid pink;
-  outline-offset: -5px;
+ /* outline: 5px solid pink;
+  outline-offset: -5px;*/
   margin-bottom: 30px;
   margin-right: auto;
   margin-top: 24px;
@@ -1115,8 +1115,8 @@ line-height: 21px;
 }
 
 .rating-diablo {
-outline: 5px solid pink;
-outline-offset: -5px;
+/*outline: 5px solid pink;
+outline-offset: -5px;*/
 margin: 29px 72px 30px 0;
 width: 110px;
 }
@@ -1204,8 +1204,8 @@ width: 110px;
   padding: 36px 0;
   color: var(--basic-black);
   background-color:  rgba(255, 255, 255, 0.9);
-  outline: 5px solid red;
-  outline-offset: -5px;
+  /*outline: 5px solid red;
+  outline-offset: -5px;*/
   padding: 0;
   margin: 0;
   margin-top: -120px;
@@ -1231,8 +1231,8 @@ width: 110px;
   font-size: 21px;
   text-align: center;
   margin-left: 111px;
-  outline: 5px solid blue;
-  outline-offset: -5px;
+  /*outline: 5px solid blue;
+  outline-offset: -5px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1258,8 +1258,8 @@ width: 110px;
   text-align: center;
   background-color:var(--basic-white);
   opacity: 0.9;
-  outline: 5px solid blue;
-  outline-offset: -5px;
+  /*outline: 5px solid blue;
+  outline-offset: -5px;*/
   width: 150px;
   justify-self: center;
   margin-right: 190px;
@@ -1273,8 +1273,8 @@ width: 110px;
   min-width: 197px;
   margin-right: 138px;
   justify-self: center;
-  outline: 5px solid blue;
-  outline-offset: 5px;
+  /*outline: 5px solid blue;
+  outline-offset: 5px;*/
 }
 
 .copyright-element-1 {
