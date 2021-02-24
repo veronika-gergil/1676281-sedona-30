@@ -1367,6 +1367,13 @@ width: 110px;
   text-align: center;
 }
 
+.minus-button:hover {
+  color: var(--basic-black);
+}
+.minus-button:active {
+  color: var(--basic-search-blue);
+}
+
 .plus-button,
 .plus-button-2 {
   position:relative;
