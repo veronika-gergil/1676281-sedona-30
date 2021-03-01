@@ -116,6 +116,7 @@ img {
   width: 100%;
   position: relative;
   padding: 15px 72px 15px 72px;
+  box-sizing: border-box;
 }
 
 
@@ -184,7 +185,6 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 .sorting-section {
@@ -750,6 +750,7 @@ line-height: 21px;
 
 .filter-input-checkbox + label {
   padding-left: 30px;
+  cursor: pointer;
 }
 
 
