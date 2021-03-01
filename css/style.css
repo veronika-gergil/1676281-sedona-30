@@ -48,7 +48,7 @@
 /*Global*/
 
 .page-body {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -101,17 +101,10 @@ img {
 
 /* Main navigation */
 
-.main-body {
-display: grid;
-grid-template-rows: auto auto 1fr;
-min-height: 100vh;
-/*outline: 5px solid red;
-outline-offset: -5px;
-}
 
 .main-header {
   background-color: var(--basic-white);
-  outline: 5px solid red;
+  /*outline: 5px solid red;
   outline-offset: -5px;*/
 }
 
@@ -155,18 +148,22 @@ outline-offset: -5px;
 
 .site-navigation li {
   margin-right: 134px;
+  text-align: left;
 }
 
 .site-navigation li:nth-child(2) {
   margin-right: 418px;
+  text-align: left;
 }
 
 .site-navigation li:nth-child(3) {
   margin-right: 147px;
+  text-align: right;
 }
 
 .site-navigation li:last-child {
   margin-right: 0;
+  text-align: right
 }
 
 .site-navigation a{
@@ -187,6 +184,7 @@ outline-offset: -5px;
 .container {
   width: 1200px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .sorting-section {
@@ -339,6 +337,8 @@ outline-offset: -5px;
   margin: 0;
   padding: 0;
   padding-bottom: 54px;
+  width: 297px;
+  margin-left: 52px;
 }
 
 .open-range-pub {
@@ -748,6 +748,11 @@ line-height: 21px;
   background-repeat: no-repeat;
 }*/
 
+.filter-input-checkbox + label {
+  padding-left: 30px;
+}
+
+
 .filter-input-checkbox:not(:checked) + label::before {
   content: "";
   position: absolute;
@@ -826,6 +831,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 .pool-check {
   margin:0;
   padding: 0;
+
 }
 .park-check,
 .wifi-check {
@@ -1319,10 +1325,11 @@ width: 110px;
   align-items: center;
   margin:0;
   padding: 0;
+
 }
 
 
-.contacts-flex {
+.footer-contacts {
   min-width: 251px;
   font-size: 21px;
   text-align: center;
@@ -1357,8 +1364,11 @@ width: 110px;
   /*outline: 5px solid blue;
   outline-offset: -5px;*/
   width: 150px;
-  justify-self: center;
   margin-right: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
 }
 
 .footer-copyright {
