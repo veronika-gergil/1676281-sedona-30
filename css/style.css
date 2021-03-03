@@ -132,6 +132,7 @@ img {
   top: 0;
   left: 531px;
   z-index: 1;
+  object-fit: contain;
 }
 
 /* User navigation*/
@@ -275,10 +276,9 @@ img {
 .about-us {
  /* outline: 5px solid pink;
   outline-offset: -5px;*/
-  margin-top: 43px;
-  margin-bottom: 16px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  padding-bottom: 28px;
   width: 470px;
 
 }
@@ -286,9 +286,12 @@ img {
 .features-desc {
   /*outline: 5px solid pink;
   outline-offset: -5px;*/
+  margin: 0;
+  padding: 0;
   margin-bottom: 51px;
   box-sizing: border-box;
   width: 519px;
+  margin-top: 45px;
 }
 
 /* Features */
@@ -312,6 +315,8 @@ img {
 .feature-item h3 {
   padding: 0;
   margin: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .blue {
@@ -320,11 +325,16 @@ img {
   color: var(--basic-white);
 }
 
+.number {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 23px;
+}
 .blue h3 {
   margin: 0;
   padding:0;
-  padding-top: 47px;
-  padding-bottom: 25px;
+  padding-top: 55px;
+  padding-bottom: 30px;
 }
 
 .number-1 {
@@ -345,6 +355,7 @@ img {
   padding: 0;
   margin: 0;
   margin-left: auto;
+  object-fit: contain;
 }
 
 .features-container-2 {
@@ -360,6 +371,7 @@ img {
   width: 800px;
   padding: 0;
   margin: 0;
+  object-fit: contain;
 }
 
 .blue-bridge {
@@ -375,7 +387,7 @@ img {
 }
 
 .block-white {
-  width: 330px;
+  height: 330px;
 }
 
 .feature-container-list {
@@ -390,13 +402,13 @@ img {
   width: 254px;
   margin-right: 124px;
   margin-left: 73px;
-  margin-top: 60px;
+  margin-top: 45px;
   margin-bottom: 82px;
 }
 
 .item-food {
   width: 297px;
-  margin-top: 61px;
+  margin-top: 45px;
   margin-bottom: 82px;
   margin-right: 118px;
 }
@@ -405,7 +417,7 @@ img {
   width: 269px;
   margin-left: auto;
   margin-right: 65px;
-  margin-top: 55px;
+  margin-top: 40px;
   margin-bottom: 81px;
 }
 
@@ -417,11 +429,36 @@ margin-top: 47px;
 margin-bottom: 54px;
 }
 
+.item-area h3 {
+margin: 0;
+padding:0;
+padding-left: 10px;
+margin-top: 10px;
+}
+
 .item-road {
 width: 258px;
 margin-right: 148px;
 margin-top: 47px;
 margin-bottom: 54px;
+text-align: center;
+
+}
+
+.item-tourists h3 {
+  width: 98px;
+  margin: 0;
+  padding: 0;
+  padding-left: 75px;
+  margin-top: 10px;
+}
+
+.item-road h3 {
+  width: 99px;
+  margin: 0;
+  padding:0;
+  padding-left: 80px;
+  margin-top: 10px;
 
 }
 
@@ -467,6 +504,7 @@ font-weight: 400;
 .modal-title {
   font-size: 21px;
   text-align: center;
+  padding-top: 5px;
 }
 
 /* Button */
@@ -570,8 +608,10 @@ outline: none;
   outline-offset: -5px;*/
   margin-bottom: 4px;
   margin-right: 457px;
-  margin-left: 446px;
-  margin-top: 58px;
+  margin-left: 430px;
+  margin-top: 60px;
+  font-size: 30px;
+
 }
 
 .hotel-search-description {
@@ -580,7 +620,7 @@ outline: none;
   outline-offset: -5px;*/
   margin-right: 382px;
   margin-left: 383px;
-  padding-top: 37px;
+  padding-top: 20px;
   padding-bottom:110px;
 
 }
@@ -1348,8 +1388,11 @@ width: 110px;
 .footer-tag {
   margin: 0;
   padding: 0;
-  padding-bottom: 9px;
 
+}
+.footer-tel {
+  padding: 0;
+  margin: 0;
 }
 
 .footer-phone {
@@ -1378,6 +1421,9 @@ width: 110px;
   text-align: center;
   font-weight: 400;
   min-width: 197px;
+  margin: 0;
+  padding: 0;
+  padding-top: 35px;
   margin-right: 138px;
   justify-self: center;
   /*outline: 5px solid blue;
@@ -1446,7 +1492,7 @@ width: 110px;
   text-align: center;
   margin: 0;
   padding: 0;
-  transform: translateX(315px) translateY(-60px);
+  transform: translateX(315px) translateY(-85px);
   box-sizing: border-box;
   box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
   position: absolute;
@@ -1456,6 +1502,7 @@ width: 110px;
 .modal-title-wrap {
   color: var(--basic-white);
   background-color: var(--link-brown);
+  min-height: 86px;
 }
 
 .modal-title-wrap:hover {
@@ -1549,7 +1596,7 @@ input::-webkit-inner-spin-button {
   padding: 0;
   box-sizing: border-box;
   margin-bottom: 25px;
-  margin-left: 55px;
+  margin-left: 40px;
   margin-right: 51px;
 }
 
@@ -1608,8 +1655,9 @@ input::-webkit-inner-spin-button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 55px;
+  margin-top: 45px;
   margin-bottom: 55px;
+  padding-left: 20px;
 }
 
 .search-button {
@@ -1617,13 +1665,15 @@ input::-webkit-inner-spin-button {
   width: 458px;
   text-align: center;
   height: 58px;
-  margin-left: 55px;
+  margin-left: 35px;
   cursor: pointer;
 }
+
 .logo {
   background: url(../img/background-photo.jpg) no-repeat 0 0;
   top: -15px;
   position: relative;
+  object-fit: contain;
 }
 
 .welcome-svg {
@@ -1636,3 +1686,14 @@ input::-webkit-inner-spin-button {
   bottom: 10px;
   left: 0;
 }
+
+/* Map */
+
+.map {
+  width: 1199px;
+  height: 594px;
+  object-fit: contain;
+}
+
+
+
