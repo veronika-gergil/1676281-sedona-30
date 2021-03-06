@@ -614,8 +614,8 @@ outline: none;
   outline-offset: -5px;*/
   margin-bottom: 4px;
   margin-right: 457px;
-  margin-left: 430px;
-  margin-top: 60px;
+  margin-left: 425px;
+  margin-top: 55px;
   font-size: 30px;
 
 }
@@ -626,7 +626,7 @@ outline: none;
   outline-offset: -5px;*/
   margin-right: 382px;
   margin-left: 383px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom:110px;
 
 }
@@ -659,7 +659,7 @@ outline: none;
 
 .calendar {
   position: absolute;
-  top: 135px;
+  top: 145px;
   left: 475px;
   outline: none;
   border: none;
@@ -668,7 +668,7 @@ outline: none;
 }
 .calendar-2 {
   position: absolute;
-  top: 203px;
+  top: 212px;
   left: 475px;
   outline: none;
   border: none;
@@ -1360,15 +1360,11 @@ width: 110px;
   justify-content: center;
 }
 
-.index {
-  position: relative;
-}
 
- .index .main-footer {
- position: absolute;
- bottom: 0;
- left: 0;
- right: 0;
+ .main-footer {
+ margin-top: -120px;
+ position: relative;
+ z-index: 1;
 }
 
 .footer-flex {
@@ -1605,19 +1601,20 @@ input::-webkit-inner-spin-button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-bottom: 25px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 50px;
 }
 
-/*.input-field {
+.input-field {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-right: 55px;
-}*/
+  margin-right: 50px;
+  margin-left: 35px;
+}
 
 .adults input,
 .kids input {
@@ -1643,10 +1640,10 @@ input::-webkit-inner-spin-button {
 }
 
 .label-1 {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .label-2 {
-  margin-right: 30px;
+  margin-right: 18px;
 }
 
 .label-3 {
@@ -1665,7 +1662,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 45px;
+  margin-top: 55px;
   margin-bottom: 55px;
   padding-left: 20px;
 }
