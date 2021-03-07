@@ -62,7 +62,7 @@
   box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
 }
 
-ul {
+.list-offset {
   padding: 0;
   margin: 0;
 }
@@ -76,6 +76,8 @@ img {
   height: auto;
 }
 
+/* Hidden */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -88,8 +90,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* Hidden */
 
 
 /*Grid*/
@@ -194,8 +194,13 @@ img {
   outline-offset: -5px;*/
   margin: 0;
   padding: 0;
+  margin-top: 10px;
   align-items: center;
   box-sizing: border-box;
+}
+
+.sort-top {
+  padding-right: 5px;
 }
 
 .sorting-title {
@@ -206,6 +211,10 @@ img {
 
 .sort-subtitle {
   display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .price-sort {
@@ -697,6 +706,18 @@ outline: none;
  padding-left: 13px;
 }
 
+input[type="text"] {
+  color: var(--basic-black);
+}
+
+input[type="text"]::-moz-placeholder {
+  color: var(--basic-black);
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: var(--basic-black);
+}
+
 .hotel-search-item input:hover {
   background-color: var(--form-hover-gray);
 }
@@ -712,9 +733,12 @@ outline: none;
 
 .filter {
   width: 1200px;
+  height: 217px;
   margin: 0 auto;
   background-image: url("../img/blurred-background.jpg");
   background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
 }
 
 .filter-container {
@@ -747,14 +771,14 @@ padding: 0;
   margin-top: 26px;
   margin-left: 72px;
   text-align: left;
-  margin-right: 120px;
+  padding-right: 120px;
 }
 
 .housing-filter {
   margin-top: 26px;
   text-align: left;
-  margin-right: 394px;
   width: 136px;
+  padding-left: 70px;
 }
 
 .cost-filter {
@@ -1044,6 +1068,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 .sorting {
   font-size: 12px;
   line-height: 18px;
+  text-transform: uppercase;
   text-align: center;
   font-weight: normal;
   background-color: var(--basic-white);
@@ -1069,6 +1094,11 @@ input[type="checkbox"]:not(:checked) + label::before {
 
 }
 
+.hotel-list {
+  padding: 0;
+  margin: 0;
+}
+
 .hotels-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -1078,6 +1108,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   margin: 0;
 }
 
+
 .hotels-container-1 {
   display: flex;
   align-items: flex-start;
@@ -1085,6 +1116,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   outline-offset: -5px;*/
   margin: 0;
   padding: 0;
+  margin-top: 5px;
   border-top: 1px solid var(--form-active-gray);
   box-sizing: border-box;
   width: 1200px;
@@ -1121,6 +1153,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   margin-bottom: 30px;
   margin-right: 30px;
   width: 135px;
+  object-fit: contain;
 }
 
 .text-amara {
@@ -1166,6 +1199,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   margin-bottom: 30px;
   margin-right: 30px;
   width: 135px;
+  object-fit: contain;
 }
 
 .motel-3000 {
@@ -1184,7 +1218,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 .text-quail {
   /*outline: 5px solid pink;
   outline-offset: -5px;*/
-  margin-top: 24px;
+  margin-top: 15px;
   margin-bottom: 30px;
   margin-right: auto;
 }
@@ -1192,7 +1226,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 .rating-quail {
  /* outline: 5px solid pink;
   outline-offset: -5px;*/
-  margin-top: 28px;
+  margin-top: 20px;
   margin-bottom: 30px;
   margin-right: 72px;
   width: 110px;
@@ -1217,6 +1251,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 29px;
+  object-fit: contain;
 }
 
 .text-diablo {
@@ -1224,7 +1259,7 @@ input[type="checkbox"]:not(:checked) + label::before {
   outline-offset: -5px;*/
   margin-bottom: 30px;
   margin-right: auto;
-  margin-top: 24px;
+  margin-top: 15px;
 }
 
 .apartment-2000 {
@@ -1239,7 +1274,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 .rating-diablo {
 /*outline: 5px solid pink;
 outline-offset: -5px;*/
-margin: 29px 72px 30px 0;
+margin: 20px 72px 30px 0;
 width: 110px;
 }
 
@@ -1344,8 +1379,15 @@ width: 110px;
   outline-offset: -5px;*/
   padding: 0;
   margin: 0;
+  min-height: 120px;
   /*margin-top: -120px;*/
 
+}
+
+.footer-wrapper {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
 }
 
 /*.footer-margin {
@@ -1362,7 +1404,7 @@ width: 110px;
 
 
  .main-footer {
- margin-top: -120px;
+ margin-top: -100px;
  position: relative;
  z-index: 1;
 }
@@ -1387,13 +1429,16 @@ width: 110px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 23px;
+  padding: 0;
+  margin: 0;
   margin-right: 163px;
+  margin-left: 110px;
 }
 
 .footer-tag {
   margin: 0;
   padding: 0;
+  padding-bottom: 10px;
 
 }
 .footer-tel {
@@ -1418,7 +1463,6 @@ width: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 36px;
 }
 
 .footer-copyright {
@@ -1429,7 +1473,7 @@ width: 110px;
   min-width: 197px;
   margin: 0;
   padding: 0;
-  padding-top: 35px;
+  padding-top: 15px;
   margin-right: 138px;
   justify-self: center;
   /*outline: 5px solid blue;
