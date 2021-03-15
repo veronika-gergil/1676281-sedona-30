@@ -19,7 +19,7 @@
       <a class="main-header-logo">
         <img src="img/logo.svg" width="138" height="70" alt="Логотип Седоны">
       </a>
-      <ul class="site-navigation">
+      <ul class="site-navigation list-offset">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
         <li class="right"><a href="#">Карта Штата</a></li>
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="features-container-blocks block-white">
-        <ul class="feature-container-list">
+        <ul class="feature-container-list list-offset">
           <li class="feature-item item-housing">
             <p class="h-3"> <svg width="75" height="72" viewBox="0 0 75 72" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@
             <p class="item-live">Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
           </li>
           <li class="feature-item item-food">
-            <p class="h-3"> <svg width="75" height="70" viewBox="0 0 75 70" fill="none"
+            <!--<p class="h-3"> <svg width="75" height="70" viewBox="0 0 75 70" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M8.97802 31.544H69.855C69.896 30.925 69.924 30.303 69.924 29.674C69.924 29.2812 69.9081 28.8934 69.8922 28.5046V28.5045L69.892 28.501C69.227 12.657 55.186 0 37.952 0C20.719 0 6.67702 12.657 6.01302 28.501C5.99602 28.891 5.98102 29.281 5.98102 29.674C5.98102 30.303 6.00902 30.925 6.05102 31.544H8.97802ZM21.957 42.465L16.634 38.406L11.308 42.465L5.12002 37.751L6.84102 35.294L11.308 38.695L16.635 34.638L21.958 38.695L27.283 34.638L32.611 38.695L37.939 34.638L43.267 38.695L48.596 34.638L53.923 38.695L59.253 34.639L64.589 38.696L69.063 35.293L70.783 37.752L64.589 42.464L59.253 38.405L53.923 42.465L48.596 38.406L43.267 42.465L37.939 38.406L32.611 42.465L27.283 38.406L21.957 42.465ZM5.05102 46.71H70.854C73.128 46.71 74.988 48.65 74.988 51.023V54.527C74.988 56.899 73.127 58.84 70.853 58.84H69.923V59.893C69.923 65.429 65.581 69.958 60.275 69.958H15.629C10.322 69.958 5.98102 65.429 5.98102 59.893V58.84H5.05102C2.77702 58.84 0.916016 56.899 0.916016 54.527V51.023C0.916016 48.65 2.77702 46.71 5.05102 46.71ZM60.276 66.915C63.987 66.915 67.006 63.765 67.006 59.894H67.005V58.841H8.89802V59.894C8.89802 63.765 11.918 66.915 15.629 66.915H60.276ZM72.071 54.527C72.071 55.215 71.513 55.798 70.853 55.798H5.05102C4.39102 55.798 3.83402 55.216 3.83402 54.527V51.023C3.83402 50.335 4.39202 49.752 5.05102 49.752H70.853C71.513 49.752 72.071 50.334 72.071 51.023V54.527ZM66.973 28.501C66.302 14.359 53.543 3.043 37.952 3.043C22.361 3.043 9.60402 14.359 8.93102 28.501H66.973Z"
@@ -102,7 +102,7 @@
                   d="M45.732 12.26C46.8068 12.26 47.678 11.3511 47.678 10.23C47.678 9.10881 46.8068 8.19995 45.732 8.19995C44.6573 8.19995 43.786 9.10881 43.786 10.23C43.786 11.3511 44.6573 12.26 45.732 12.26Z"
                   fill="#81B3D2" />
               </svg>
-            </p>
+            </p> -->
             <h3>Еда</h3>
             <p class="item-order">Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
           </li>
@@ -127,11 +127,11 @@
         <div class="blue blue-bridge">
           <h3>Там есть<br> мост дьявола</h3>
           <p class="number">— №2 —</p>
-          <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+          <p class="paragraph">Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
         </div>
       </div>
       <div class="features-container-blocks grey-section">
-        <ul class="feature-container-list grey-section">
+        <ul class="feature-container-list grey-section list-offset">
           <li class="feature-item item-area">
             <h3>Небольшая площадь</h3>
             <p>— №3 —</p>
@@ -162,13 +162,13 @@
       <form class="hotel-search-form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="input-field">
           <p class="hotel-search-item">
-            <label class="arrival-label label-1">
+            <label for="arrival-label" class="arrival-label label-1">
               Дата заезда:
             </label>
             <input class="booking-input" type="text" name="date-of-arrival" placeholder="24 апреля 2017"
               id="arrival-label">
-            <button type="button" class="calendar"><svg width="21" height="23" viewBox="0 0 21 23" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="calendar" aria-label="Иконка календаря для выбора даты"><svg width="21"
+                height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M16.406 3.02498H19.251C20.217 3.02498 21 3.84698 21 4.86198V21.164C21 22.179 20.217 23 19.251 23H1.75C0.784 23 0 22.179 0 21.164V4.86198C0 3.84698 0.784 3.02498 1.75 3.02498H4.593V1.64798C4.593 1.26698 4.887 0.958984 5.25 0.958984C5.612 0.958984 5.906 1.26698 5.906 1.64798V3.02498H9.844V1.64798C9.844 1.26698 10.138 0.958984 10.501 0.958984C10.862 0.958984 11.156 1.26698 11.156 1.64798V3.02498H15.094V1.64798C15.094 1.26698 15.387 0.958984 15.75 0.958984C16.112 0.958984 16.406 1.26698 16.406 1.64798V3.02498ZM19.5646 21.484C19.6466 21.3979 19.691 21.2828 19.688 21.164H19.689V4.86198C19.689 4.60898 19.493 4.40298 19.252 4.40298H16.407V5.78098C16.407 6.16198 16.113 6.46998 15.751 6.46998C15.388 6.46998 15.095 6.16198 15.095 5.78098V4.40298H11.157V5.78098C11.157 6.16198 10.863 6.46998 10.502 6.46998C10.139 6.46998 9.845 6.16198 9.845 5.78098V4.40298H5.907V5.78098C5.907 6.16198 5.613 6.46998 5.251 6.46998C4.888 6.46998 4.594 6.16198 4.594 5.78098V4.40298H1.75C1.50263 4.40953 1.30696 4.61458 1.312 4.86198V21.164C1.30696 21.4114 1.50263 21.6164 1.75 21.623H19.251C19.3698 21.6201 19.4826 21.5701 19.5646 21.484Z"
                   fill="#A9A9A9" />
@@ -178,13 +178,13 @@
               </svg> </button>
           </p>
           <p class="hotel-search-item">
-            <label class="departure-label label-2">
+            <label for="departure-label" class="departure-label label-2">
               Дата выезда:
             </label>
             <input class="booking-input" type="text" name="date-of-departure" placeholder="4 июля 2017"
               id="departure-label">
-            <button type="button" class="calendar-2"><svg width="21" height="23" viewBox="0 0 21 23" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+            <button type="button" class="calendar-2" aria-label="Иконка календаря для выбора даты"><svg width="21"
+                height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M16.406 3.02498H19.251C20.217 3.02498 21 3.84698 21 4.86198V21.164C21 22.179 20.217 23 19.251 23H1.75C0.784 23 0 22.179 0 21.164V4.86198C0 3.84698 0.784 3.02498 1.75 3.02498H4.593V1.64798C4.593 1.26698 4.887 0.958984 5.25 0.958984C5.612 0.958984 5.906 1.26698 5.906 1.64798V3.02498H9.844V1.64798C9.844 1.26698 10.138 0.958984 10.501 0.958984C10.862 0.958984 11.156 1.26698 11.156 1.64798V3.02498H15.094V1.64798C15.094 1.26698 15.387 0.958984 15.75 0.958984C16.112 0.958984 16.406 1.26698 16.406 1.64798V3.02498ZM19.5646 21.484C19.6466 21.3979 19.691 21.2828 19.688 21.164H19.689V4.86198C19.689 4.60898 19.493 4.40298 19.252 4.40298H16.407V5.78098C16.407 6.16198 16.113 6.46998 15.751 6.46998C15.388 6.46998 15.095 6.16198 15.095 5.78098V4.40298H11.157V5.78098C11.157 6.16198 10.863 6.46998 10.502 6.46998C10.139 6.46998 9.845 6.16198 9.845 5.78098V4.40298H5.907V5.78098C5.907 6.16198 5.613 6.46998 5.251 6.46998C4.888 6.46998 4.594 6.16198 4.594 5.78098V4.40298H1.75C1.50263 4.40953 1.30696 4.61458 1.312 4.86198V21.164C1.30696 21.4114 1.50263 21.6164 1.75 21.623H19.251C19.3698 21.6201 19.4826 21.5701 19.5646 21.484Z"
                   fill="#A9A9A9" />
@@ -195,27 +195,28 @@
           </p>
         </div>
         <div class="input-fields">
-          <p class="hotel-search-item adults-and-kids">
-            <label class="adults-label label-3">
+          <p class="hotel-search-item">
+            <label for="adults-label" class="adults-label label-3">
               Взрослые:</label>
-            <div class="adults">
-              <button type="button" class="minus-button">-</button>
-              <div class="adults-input">
-                <input type="text" id="adults-label" placeholder="2">
-              </div>
-              <button type="button" class="plus-button">+</button>
-            </div>
-            <label class="kids-label label-4">
-              Дети:
-            </label>
-            <div class="kids">
-              <button type="button" class="minus-button-2">-</button>
-              <div class="kids-input">
-                <input type="text" id="kids-label" placeholder="0">
-              </div>
-              <button type="button" class="plus-button-2">+</button>
-            </div>
           </p>
+          <div class="adults">
+            <button type="button" class="minus-button">-</button>
+            <div class="adults-input">
+              <input type="text" id="adults-label" class="number-of-adults" placeholder="2">
+            </div>
+            <button type="button" class="plus-button">+</button>
+          </div>
+          <label for="kids-label" class="kids-label label-4">
+            Дети:
+          </label>
+          <div class="kids">
+            <button type="button" class="minus-button-2">-</button>
+            <div class="kids-input">
+              <input type="text" name="number-of-kids" id="kids-label" placeholder="0">
+            </div>
+            <button type="button" class="plus-button-2">+</button>
+          </div>
+
         </div>
         <button class="button search-button" type="submit">Найти</button>
       </form>
@@ -244,11 +245,12 @@
         </section>
         <section class="footer-social">
           <h2 class="visually-hidden">Наши контакты</h2>
-          <ul class="social-list">
+          <ul class="social-list list-offset">
             <li>
               <a class="social-button social-1" href="#">
                 <span class="visually-hidden">Твиттер</span>
-                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-hidden="true" focusable="false" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.95 1.14409C12.635 0.648089 13.934 1.41409 14.527 2.32309C15.2 2.09209 15.858 1.84209 16.538 1.61509C16.5249 2.30145 16.2117 2.94761 15.681 3.38309C16.366 3.55309 16.985 2.89209 16.985 2.89209C16.816 3.89209 15.979 4.68009 15.422 4.91609C15.191 11.6661 12.247 16.1331 5.34498 15.9981H4.89898C4.48898 15.9981 0.734977 15.5381 0.000976562 14.1111C2.27198 14.3071 3.89398 13.6891 4.69398 12.9341C3.73398 12.6341 2.01498 12.4571 1.71498 9.98409C2.06398 10.0901 2.27898 10.2121 2.90498 10.1031C1.70498 9.24709 0.373977 8.53009 0.447977 6.33009C0.732977 6.65809 1.51498 6.86609 1.78798 6.80209C1.08498 6.56109 -0.182023 3.44209 0.893977 1.85009C2.71198 3.70409 4.62898 5.45609 8.04598 5.62309C8.25398 3.33009 9.18298 1.79309 10.95 1.14409Z"
                     fill="white" />
@@ -257,16 +259,16 @@
             </li>
             <li>
               <a class="social-button social-2" href="#">
-                <span class="visually-hidden">Фэйсбук</span><svg width="12" height="22" viewBox="0 0 12 22" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                <span class="visually-hidden">Фэйсбук</span><svg aria-hidden="true" focusable="false" width="12"
+                  height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white" />
                 </svg>
               </a>
             </li>
             <li>
               <a class="social-button social-3" href="#">
-                <span class="visually-hidden">Ютуб</span><svg width="20" height="16" viewBox="0 0 20 16" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                <span class="visually-hidden">Ютуб</span><svg aria-hidden="true" focusable="false" width="20"
+                  height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M3 0H17C18.65 0 20 1.35 20 3V13C20 14.65 18.65 16 17 16H3C1.35 16 0 14.65 0 13V3C0 1.35 1.35 0 3 0ZM6.027 4.002V11.998L15.014 8L6.027 4.002Z"
                     fill="white" />
