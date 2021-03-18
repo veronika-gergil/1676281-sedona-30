@@ -839,7 +839,7 @@ line-height: 21px;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -878,6 +878,14 @@ line-height: 21px;
 .price-controls .max-price {
   width: 90px;
   padding-left: 60px;
+}
+
+.price-controls .min-price {
+  padding-left: 65px;
+}
+
+.price-controls .max-price {
+  padding-left: 56px;
 }
 
 .price-controls input {
@@ -935,8 +943,8 @@ line-height: 21px;
   margin: 0 auto;
   margin: 0;
   padding: 0;
-  margin-left: 85px;
-  padding: 6px 35px;
+  margin-left: 83px;
+  padding: 5px 35px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
